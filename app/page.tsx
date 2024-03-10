@@ -2,6 +2,9 @@ import Image, { StaticImageData } from "next/image";
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import dhoni from '../public/Dhoni.jpg';
+export const metadata={
+  title:"Home page ",
+}
 export default function Home() {
   return (
     <>

@@ -1,5 +1,7 @@
 import React from 'react'
-
+export const metadata={
+    title:"Contact page ",
+  }
 function page() {
   return (
     <main className="container mx-auto px-4 py-6">

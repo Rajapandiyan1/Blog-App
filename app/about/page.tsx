@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
+export const metadata={
+  title:"About page ",
+}
 function page() {
   return (
     <main className="container mx-auto px-4 py-6">
@@ -10,5 +13,4 @@ function page() {
 
   )
 }
-
 export default page
