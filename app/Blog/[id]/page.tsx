@@ -6,7 +6,7 @@ return {
 }
 function page({params}) {
   return (
-    <div> 
+    <div style={{height:'78vh'}} className='d-flex align-items-center justify-content-center'> 
         <h1> Blog Dynamic Page {params.id}</h1>
 
     </div>

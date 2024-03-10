@@ -4,7 +4,7 @@ export const metadata={
   }
 function page() {
   return (
-    <main className="container mx-auto px-4 py-6">
+    <main className="container mx-auto px-4 py-6" style={{height:'78vh'}}>
         <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
         <form className="w-full max-w-lg">
             <div className="flex items-center mb-4">
